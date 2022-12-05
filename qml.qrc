@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>radio.qml</file>
+        <file>icons/logo-alemfm.png</file>
+        <file>icons/logo-dreamturk.png</file>
+        <file>icons/logo-powerturk.png</file>
+        <file>icons/logo-slowturk.png</file>
+        <file>welcome.qml</file>
+        <file>podcast.qml</file>
+    </qresource>
+</RCC>
