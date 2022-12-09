@@ -14,7 +14,6 @@ podcastController::podcastController()
 
 void podcastController::playPodcast1()
 {
-    qDebug() << "Clicked!";
     player->stop();
     playlist->clear();
     playlist->addMedia(QUrl("https://feeds.soundcloud.com/stream/1396303042-radyolandpodcast-nihatla-muhabbet-5-aralik-2022.mp3"));     //Nihat SIRDAR 5-December-2022 Podcast

@@ -7,5 +7,11 @@
         <file>icons/logo-slowturk.png</file>
         <file>welcome.qml</file>
         <file>podcast.qml</file>
+        <file>swipe_View.qml</file>
+        <file>icons/nihatsirdar.jpg</file>
+        <file>icons/nihatla_sivrisinek.jpg</file>
+        <file>mediaPlayer.qml</file>
+        <file>icons/radio.png</file>
+        <file>icons/podcast.png</file>
     </qresource>
 </RCC>
