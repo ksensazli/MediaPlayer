@@ -13,6 +13,7 @@ Window {
     visible: true
     title: qsTr("Radio")
 
+    //For center of the window
     Component.onCompleted: {
             x = (Screen.width-radioScreen.width) / 2
             y = (Screen.height-radioScreen.height) / 2

@@ -13,6 +13,7 @@ Window {
     visible: true
     title: qsTr("Radio and Podcast")
 
+    //For center of the window
     Component.onCompleted: {
             x = (Screen.width-welcomeScreen.width) / 2
             y = (Screen.height-welcomeScreen.height) / 2

@@ -2,24 +2,8 @@
 
 radioController::radioController()
 {
-    volumeSlider = new QSlider;
-    volumeSlider->setRange(0, 100);
-    volumeSlider->setValue(100);
     playlist = new QMediaPlaylist;
     player = new QMediaPlayer;
-
-    connect(volumeSlider, SIGNAL(valueChanged(int)), this, SIGNAL(volumeChanged(int)));
-    connect(volumeSlider, SIGNAL(volumeChanged(int)), player, SLOT(setVolume(int)));
-}
-
-int radioController::volume() const
-{
-    return volumeSlider->value();
-}
-
-void radioController::setVolume(int volume)
-{
-    player->setVolume(volume);
 }
 
 void radioController::playSlowturk()

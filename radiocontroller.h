@@ -19,9 +19,6 @@ class radioController : public QObject
         radioController();
         QMediaPlaylist *playlist;
         QMediaPlayer *player;
-        QSlider *volumeSlider;
-        void setVolume(int);
-        int volume() const;
 
     public slots:
         void playSlowturk();

@@ -11,5 +11,6 @@
         <file>icons/nihatla_sivrisinek.jpg</file>
         <file>icons/radio.png</file>
         <file>icons/podcast.png</file>
+        <file>player.qml</file>
     </qresource>
 </RCC>
